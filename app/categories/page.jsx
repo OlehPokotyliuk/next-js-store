@@ -13,6 +13,7 @@ const Page = () => {
             src={"/image/mens_clothing.jpg"}
             width={250}
             height={400}
+            alt={"mens clothing"}
           />
           <p className={classes.paragraph}>men's clothing</p>
         </Link>
@@ -22,6 +23,7 @@ const Page = () => {
             src={"/image/jewelery.jpg"}
             width={250}
             height={400}
+            alt={"jewelery"}
           />
           <p className={classes.paragraph}>jewelery</p>
         </Link>
@@ -31,6 +33,7 @@ const Page = () => {
             src={"/image/electronic.jpg"}
             width={250}
             height={400}
+            alt={"electronic"}
           />
           <p className={classes.paragraph}>electronics</p>
         </Link>
@@ -40,6 +43,7 @@ const Page = () => {
             src={"/image/womans_clothing.jpg"}
             width={250}
             height={400}
+            alt={"womans clothing"}
           />
           <p className={classes.paragraph}>women's clothing</p>
         </Link>

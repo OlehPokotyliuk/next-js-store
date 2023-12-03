@@ -1,8 +1,11 @@
 {
+  "homepage": "https://olehpokotyliuk.github.io/next-js-store/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.0.2",
+    "gh-pages": "^6.1.0",
     "prettier": "^3.1.0"
   }
 }

@@ -11,6 +11,7 @@ const ContactText = ({ path, spanText, paragraphText, secondParagraph }) => {
           width={40}
           height={40}
           color="#000"
+          alt={'image'}
         />
         <span className={classes.contactSpan}>{spanText}</span>
       </p>

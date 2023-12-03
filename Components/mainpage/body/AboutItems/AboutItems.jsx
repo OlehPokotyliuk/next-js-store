@@ -11,6 +11,7 @@ const AboutItems = () => {
         width={50}
         height={50}
         color="#000"
+        alt={'icon'}
       />
       <h2>10.5k</h2>
       <p>Sallers active our site</p>

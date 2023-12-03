@@ -23,7 +23,7 @@ const page = () => {
             ranging from co
           </p>
         </div>
-        <Image src={"/image/side.jpg"} width={705} height={609}></Image>
+        <Image src={"/image/side.jpg"} width={705} height={609} alt={'image'}/>
       </div>
       <div className={classes.ourStore}>
         <AboutItems />
