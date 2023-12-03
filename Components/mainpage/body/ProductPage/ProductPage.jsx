@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import TodaysSection from "../todaysSection/TodaysSection";
+import TodaysSection from "../TodaysSection/TodaysSection";
 import Menu from "../../header/Menu/Menu";
 import classes from "./ProductPage.module.scss";
 import Banner from "../../header/banner/Banner";
