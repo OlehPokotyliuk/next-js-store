@@ -1,0 +1,33 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.about{
+  display: flex;
+
+  .text{
+    width: 40%;
+    p{
+      width: 70%;
+      margin-top: 40px;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.ourStore{
+  margin-top: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutPersonCard{
+  display: flex;
+  justify-content: space-between;
+}
+.delivery{
+  margin-top: 140px;
+  display: flex;
+  justify-content: space-evenly;
+}

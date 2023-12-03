@@ -1,0 +1,13 @@
+@import "@/style/mixins";
+@import "@/style/variable";
+
+.btn {
+  color: #fff;
+  background-color: $label-color;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+  height: auto;
+  font-size: 16px;
+  font-family: Poppins;
+}

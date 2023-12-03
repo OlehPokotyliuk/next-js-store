@@ -1,0 +1,15 @@
+@import "@/style/mixins";
+@import "@/style/variable";
+
+.label {
+  @include poppins($size: 12px, $color: #fff, $weight: 400);
+  background-color: $label-color;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+}

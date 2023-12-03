@@ -1,0 +1,26 @@
+@import "@/style/mixins";
+@import "@/style/variable";
+
+.aboutCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 30px 50px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  height: 230px;
+
+  &:hover {
+    background-color: $label-color;
+    cursor: pointer;
+  }
+}
+.image {
+  background-color: #000;
+  border-radius: 50px;
+  padding: 10px;
+  &:hover{
+    background: #8d8d8d;
+  }
+}

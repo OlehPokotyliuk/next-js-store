@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  .link {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: Poppins;
+  }
+}

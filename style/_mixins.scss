@@ -1,0 +1,34 @@
+@mixin poppins($size: 16px, $color: #000, $weight: 400) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-family: "Poppins";
+}
+
+@mixin inter($size, $color: #000, $weight: 400) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  font-family: "Inter";
+}
+
+@mixin standartButton($padd-top-bottom: 16px, $padd-right-left: 48px) {
+  display: flex;
+  font-family: Poppins;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+  background-color: $label-color;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+  padding: $padd-top-bottom $padd-right-left;
+  text-align: center;
+  &:hover {
+    background-color: rgb(250, 165, 165);
+  }
+  &:disabled {
+    background-color: rgb(250, 165, 165);
+  }
+}

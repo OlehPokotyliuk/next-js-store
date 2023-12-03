@@ -1,0 +1,40 @@
+@import "@/style/mixins";
+@import "@/style/variable";
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapperCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 40%;
+  margin-right: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .title {
+    font-family: Poppins;
+    font-size: 24px;
+  }
+
+  .price {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+.buttonBlock {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Poppins;
+  align-items: center;
+}
+.btn, .buyButton {
+  @include standartButton(4px, 8px);
+}
